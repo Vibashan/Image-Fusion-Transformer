@@ -175,21 +175,16 @@ class FusionBlock_res(torch.nn.Module):
 
     def forward(self, x_ir, x_vi):
         # initial fusion - conv
-        # a_cat = torch.cat([self.axial_attn(x_ir), self.axial_attn(x_vi)], 1)
-        # a_init = self.axial_fusion(a_cat)
-
-        # x_cvi = self.conv_fusion(x_vi)
-        # x_cir = self.conv_fusion(x_ir)
-        
-        # out = torch.cat([x_cvi, x_cir], 1)
-        # out = self.bottelblock(out)
-        # out = a_init + out 
+        a_cat = torch.cat([self.axial_attn(x_ir), self.axial_attn(x_vi)], 1)
+        a_init = self.axial_fusion(a_cat)
 
         x_cvi = self.conv_fusion(x_vi)
         x_cir = self.conv_fusion(x_ir)
         
         out = torch.cat([x_cvi, x_cir], 1)
         out = self.bottelblock(out)
+        out = a_init + out 
+
         return out
 
 
