@@ -18,7 +18,7 @@ from net import NestFuse_light2_nodense, Fusion_network, RFN_decoder
 from checkpoint import load_checkpoint
 from args_fusion import args
 import pytorch_msssim
-from vit_model import VisionTransformer
+#from vit_model import VisionTransformer
 
 import warnings
 warnings.filterwarnings("ignore")
