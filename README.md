@@ -30,4 +30,5 @@ The Fusion results are included in "analysis_MatLab".
 
 If you have any question about this code, feel free to reach me(vvishnu2@jh.edu).
 
-This codebase is built on top of [RFN-Nest](https://github.com/hli1221/imagefusion-rfn-nest).
+## Acknowledgement
+This codebase is built on top of [RFN-Nest](https://github.com/hli1221/imagefusion-rfn-nest) by [Li Hui](https://github.com/hli1221).
