@@ -16,13 +16,13 @@ The testing datasets are included in "analysis_MatLab".
 ### Training Command:
 
 ```bash 
-python train_vit_fusionnet.py
+python train_fusionnet_axial.py
 ```
 
 ### Testing Command:
 
 ```bash 
-python test_21pairs_vit.py
+python test_21pairs_axial.py
 ```
 
 The Fusion results are included in "analysis_MatLab".
