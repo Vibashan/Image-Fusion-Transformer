@@ -191,8 +191,6 @@ def train(original_imgs_path, img_flag, alpha, w1, w2):
 				all_fea_loss = 0.
 
 		# save model
-		fusion_model.eval()
-		fusion_model.cpu()
 		save_model_filename = mode + ".model"
 		save_model_path = os.path.join(temp_path_model_w, save_model_filename)
 		torch.save(fusion_model.state_dict(), save_model_path)
