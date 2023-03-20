@@ -7,7 +7,7 @@
 [[`Peronal Page`](https://viudomain.github.io/)] [[`ICIP`](https://ieeexplore.ieee.org/abstract/document/9897280)] [[`pdf`](https://arxiv.org/pdf/2107.09011.pdf)] [[`BibTeX`](https://github.com/Vibashan/Image-Fusion-Transformer/blob/main/reference.bib)]
 
 <p align="center">
-  <img src="IFT.png" width="800" height="300">
+  <img src="IFT.png" width="800" height="400">
 </p>
 
 ## Platform
